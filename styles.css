@@ -14,20 +14,32 @@ body {
   padding: 20px;
   background-color: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  text-align: left;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Two columns: 1fr for menu item and 2fr for item description */
+  gap: 10px; /* Gap between columns */
+  margin-bottom: 20px;
 }
 
 .section-header {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 10px;
 }
 
 .menu-item {
   font-weight: bold;
-  margin-bottom: 5px;
 }
 
 .item-description {
-  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+/* Clearfix for grid layout */
+.section::after {
+  content: "";
+  display: table;
+  clear: both;
 }
