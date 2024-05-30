@@ -1,0 +1,33 @@
+{
+  "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "com.procoit.kioskbrowser/com.procoit.kioskbrowser.receiver.AdminReceiver",
+  "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_CHECKSUM": "pRb9h2LyCRu0xVtlbZ-wt5tO6dyVu3uaXIj8xCHsXlo=",
+  "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION": "https://kbremote.blob.core.windows.net/apk/current/com.procoit.kioskbrowser.apk",
+  "android.app.extra.EXTRA_PROVISIONING_LOCALE": "en_GB",
+  "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": true,
+  "android.app.extra.PROVISIONING_SKIP_ENCRYPTION": true,
+  "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": {
+    "registration_key": "2KBSM",
+    "kiosk_url": "https://setupmy.tv?hidecontrols&123"
+  },
+  "android.app.extra.PROVISIONING_DISALLOW_APPS": [],
+  "android.app.extra.PROVISIONING_PACKAGE_CHECKSUMS": [
+    {
+      "packageName": "com.procoit.kioskbrowser",
+      "checksum": "pRb9h2LyCRu0xVtlbZ-wt5tO6dyVu3uaXIj8xCHsXlo="
+    },
+    {
+      "packageName": "com.example.cleardataapp",
+      "checksum": "bcd24734bdb4ccc43a8b600ac6309005563d78d194ebcc0150eb8f75ad2288a7"
+    }
+  ],
+  "android.app.extra.PROVISIONING_PACKAGE_DOWNLOAD_LOCATION": [
+    {
+      "packageName": "com.procoit.kioskbrowser",
+      "downloadLocation": "https://kbremote.blob.core.windows.net/apk/current/com.procoit.kioskbrowser.apk"
+    },
+    {
+      "packageName": "com.example.cleardataapp",
+      "downloadLocation": "https://jamesrandall5.github.io/WhiteHorse/com.example.cleardataapp.apk"
+    }
+  ]
+}
